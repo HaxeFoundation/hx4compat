@@ -1,0 +1,14 @@
+{
+  "name": "hx4compat",
+  "url": "https://github.com/HaxeFoundation/hx4compat",
+  "license": "BSD",
+  "tags": ["cross"],
+  "description": "Some haxe 4 types for easier migration to haxe 5.",
+  "version": "1.0.0",
+  "releasenote": "initial",
+  "contributors": ["Simn", "HaxeFoundation"],
+  "dependencies": {
+
+  },
+  "classPath": "std"
+}
