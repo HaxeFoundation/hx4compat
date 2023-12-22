@@ -198,7 +198,7 @@ private class MysqlConnection implements sys.db.Connection {
 }
 
 @:buildXml('<include name="${HXCPP}/src/hx/libs/mysql/Build.xml"/>')
-@:coreApi class Mysql {
+class Mysql {
 	public static function connect(params:{
 		host:String,
 		?port:Int,

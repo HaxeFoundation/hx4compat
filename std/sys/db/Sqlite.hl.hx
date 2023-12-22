@@ -276,7 +276,7 @@ private class SqliteResultSet implements ResultSet {
 	}
 }
 
-@:coreApi class Sqlite {
+class Sqlite {
 	public static function open(file:String):Connection {
 		return new SqliteConnection(file);
 	}
