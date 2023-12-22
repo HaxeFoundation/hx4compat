@@ -27,7 +27,7 @@ import sys.db.*;
 import php.db.*;
 import php.db.Mysqli_result;
 
-@:coreApi class Mysql {
+class Mysql {
 	public static function connect(params:{
 		host:String,
 		?port:Int,
